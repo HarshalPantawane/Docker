@@ -1,0 +1,36 @@
+Docker comds
+
+
+docker --version
+docker info
+docker pull <image_name>        # Download image from Docker Hub
+docker images                  # List images
+docker rmi <image_id>          # Remove image
+docker build -t <name> .       # Build image from Dockerfile
+docker run <image>             # Run container and print output
+docker run -it <image> bash   # Interactive mode
+docker run -d <image>         # Run in detached mode
+docker ps                     # Running containers
+docker ps -a                  # All containers
+docker stop <container_id>    # Stop container
+docker start <container_id>   # Start container
+docker restart <container_id> # Restart container
+docker rm <container_id>      # Remove container
+docker logs <container_id>        # View logs
+docker exec -it <container_id> bash  # Enter container
+docker inspect <container_id>     # Detailed info
+docker network ls
+docker network create <network_name>
+docker network inspect <network_name>
+docker volume ls
+docker volume create <volume_name>
+docker volume inspect <volume_name>
+docker-compose up        # Start services
+docker-compose up -d     # Detached mode
+docker-compose down      # Stop services
+docker-compose ps
+docker system prune      # Remove unused data
+docker container prune   # Remove all container
+docker image prune       # Remove image
+docker volume prune
+docker run -d -p 8080:80 myapp
