@@ -33,4 +33,4 @@ docker system prune      # Remove unused data
 docker container prune   # Remove all container
 docker image prune       # Remove image
 docker volume prune
-docker run -d -p 8080:80 myapp
+docker run -d --name c1 --network test -p 80:80 nginx
