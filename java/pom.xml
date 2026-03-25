@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" ...>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
    <modleVersion>4.0.0</modleVersion>
    <groupId>myapp</groupId>
    <artifactId>myapp</artifactId>
